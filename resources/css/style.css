@@ -1,13 +1,107 @@
+/*Hello, 
+		I do not feel very pround, but I guess I have to say that "this is my final project." :-( 
+		The non-responsive part at least looks somehow like the mockup but I had a lot of trouble doing the responisve part. I tried a lot, but at the end it became quite a chaos and so I deleted most of my responisve attempts so it does not get too exhausting for you while looking over my project. 
+		
+		Nevertheless, I did learn a lot doing this project. I decided to finally turn it in now, becasue I figured that after learning from some corrections of yours I will start it all over again to finish it for myself. I really did not want to give up on that, but after a while the whole thing became such a mess that I feelt like it is much better to start all over again instead of continuing to look for my mistakes.
+
+		Do you happen to have a possible suggestion for a solution on this project? Especailly the responsive part? 
+		I would love to check and see how you guys do it and to learn from you and then to do it all over again for myself. 
+
+		Really sorry for turining in such a mess. Please excuse me. 
+
+		Anyway, this course is really great and I will go over it again reviewing the lessons and the projects. I am very confident if I do my reviewing properly I can catch up on a couple of topics I am lacking some skill in at the moment.
+
+		Thanks a lot for your help and support. It was a great course. When I am able to confidently finish the capstone project for myself I am planning to enroll in another one of your intesive seminars. It was great fun. Take care, 
+		Alex */
+	
+
+
 * {margin:0 auto;}
 body {width: 800px; font-size: 14px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
 header{height:64px;width:800px; display:inline-flex;}
-div.logo {padding-right:300px;display:flex; align-items:center; width:200px;}
+div.logo {margin-left:-25px;padding-right:300px;display:flex; align-items:center; width:200px;}
+div.logo img {margin-right:0px;}
+span {margin:0;text-transform:uppercase;}
+span.colmar {font-weight: bold;padding:0;margin:0;}
 nav {display:flex; justify-content:flex-end; align-items:center;}
-ul {padding:0; margin-left: -70px;margin-right:24px;}
+ul {padding:0; margin-left: -70px;}
 nav ul li{display:inline-flex; align-content: space-between; padding-left:16px;}
-section.banner {display:flex;padding: 32px 24px;background-color:#d8d8d8;}
+section.banner {display:flex;padding: 32px 24px;padding-left:8px;background-color:#d8d8d8;}
 div.banner-text {;padding-left:24px;padding-top:50px;padding-bottom:50px;}
 div.text-top h1{padding-bottom:20px;}
 div.button {margin-top:30px;display:inline-block;border:1px solid black;width:235px;}
 div.button p {color:seashell;font-size:16px; text-align:center;padding-top:8px;padding-bottom:8px;}
 #button-color {background-color:#4a4a4a;}
+section.section2 {display:flex;width:100%;}
+div.content-left {width:450px;padding-left:19px;padding-right:24px;display:flex;flex-direction: column;}
+div.content-left img {padding-top:32px;}
+div.content-left h1 {;font-weight: bold; width:100%;padding-top:32px;}
+div.content-left p {font-size:11px;width:100%;padding-top:24px;}
+div.content-left figcaption {width:100%;padding-top:24px;padding-bottom:32px;font-size:10px;}
+div.content-left h1,p{text-align:left;}
+div.content-right {border-left:0.5px solid lightgrey;justify-content:space-around;display:flex;flex-direction:column;}
+div.orientation-text h2, div.campus-text h2, div.guest-text h2 {font-size:15px;}
+div.orientation-text h3, div.campus-text h3, div.guest-text h3 {font-size:13px;}
+div.orientation-text p, div.campus-text p, div.guest-text p {padding-left:12px;font-size:12px;}
+div.orientation-text h2{padding:10px;}
+div.campus-text h2{padding:10px;}
+div.guest-text h2{padding:10px;}
+div.orientation {margin-left:10px;display:flex;}
+div.orientation > img {width:120px; height:120px;}
+div.campus {padding-left:10px;;display:flex;}
+div.campus > img {width:120px; height:120px;}
+div.guest {;background-color:#d8d8d8;padding:10px;display:flex;}
+div.guest > img {;width:120px; height:120px;}
+
+
+
+
+section.section3 {background-color:#d8d8d8;}
+.content-section3 {;width:800px;background-color:#d8d8d8}
+div.box1, div.box2, div.box3, div.box4, div.box5, div.box6 {width:300px;background-color:white;}
+div.box1, div.box2, div.box3 {margin:0 32px;}
+div.box4, div.box5, div.box6 {margin:32px 32px;}
+div.box1 img {width:205px;height:120px;}
+div.box2 img {width:205px;height:120px;}
+div.box3 img {width:205px;height:120px;}
+div.box4 img {width:205px;height:120px;}
+div.box5 img {width:205px;height:120px;}
+div.box6 img {width:205px;height:120px;}
+div.content-section3 h2{font-size:17px}
+div.content-section3 h3{}
+div.content-section3 p{font-size:12px;}
+div.content-top{width:800px;display:flex;}
+div.content-bottom {width:800px;display:flex;}
+.section4 {width:100%;overflow:hidden;}
+div.bottom {float:left;}
+section.section3 h1, section.section4 h1 {text-align:center;padding:24px;}
+div.bottom video {margin:-55px 24px;}
+div.bottom-right {display:inline-flex;flex-direction:column;}
+div.bottom-right-top {background-color:#d8d8d8;width:322px;}
+div.bottom-right-top img{float:left;width:100px;padding:16px;}
+div.bottom-right-top h2 {font-size:13px;padding-top:32px;}
+div.bottom-right-top p {font-size:12px;}
+div.bottom-right-bottom {background-color:whitesmoke;width:322px;}
+div.bottom-right-bottom img {float:left;width:100px; padding:16px;}
+div.bottom-right-bottom h2 {font-size:13px;padding-top:45px;} 
+div.bottom-right-bottom p {font-size:12px;}
+
+@media only screen and (max-width: 430px) {
+	body {margin:0 0; padding:0 0;width:430px;}
+	section.banner img {padding:0 0; margin:0 0;width:100%;}
+	div.content-left img {display:none;}
+	div.content-left {background:url(../capstone_colmar_assets/images/information-orientation.jpg)}
+	section.section2 {display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
